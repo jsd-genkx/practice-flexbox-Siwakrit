@@ -1,8 +1,8 @@
 /* BASE STYLES */
 :root {
   --clr-dark: #0f172a;
-  --clr-light: #f1f5f9;
-  --clr-accent: #006666;
+  --clr-light: #3b0505;
+  --clr-accent: #20f1c4;
 }
 
 *,
@@ -35,7 +35,7 @@ body {
 .item {
   width: 150px;
   height: 150px;
-  background-color: #b2d8d8;
+  background-color: #f3a8a8;
   padding: 1em;
   font-weight: 700;
   color: var(--clr-dark);
@@ -57,10 +57,10 @@ body {
 
   display: flex;
 
-  /* flex-direction: column; */
+  flex-direction: column;
 
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
@@ -82,7 +82,7 @@ body {
 
   /* gap: 1rem; */
 
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .item-1 {
@@ -99,7 +99,7 @@ body {
 
 .item-3 {
   font-size: 1.5rem;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   /* flex-shrink: 5; */
   /* flex-basis: 300px; */
   /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
